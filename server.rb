@@ -2,7 +2,7 @@
 require 'sinatra'
 require "sinatra/json"
 require "sinatra/reloader" if development?
-require 'pry-debugger'
+require 'pry-byebug'
 
 # require file includes
 require_relative 'jokes_app.rb'
